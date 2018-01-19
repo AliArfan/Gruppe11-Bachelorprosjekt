@@ -1,0 +1,20 @@
+Notater:
+Møter med Payex: 
+Uke 2: 8. Januar: PayEx viste fram kravspekken, hvordan vi skal gå frem og hvordan kommunikasjonen kommer til å være fremover. 
+	- Verktøy og utstyr:
+	Frontend: Vue, Javascript, UI/UX
+	Begge deler: Office 365
+	Backend: Influxdb, Nginx, Java: Spring, springboot..., Linux, RabbitMQ (AMQP), Servere
+	Kommunikasjon: fikk payexkonto (mail), Slack, github, Teamleder Dani, systemutvikler Even og får en front end designer. 
+	Utviklingsmetodikk: smidig scrum, jobbe i 2 ukers sprinter
+	 
+jobbet med forprosjektrapport, laget først vår egen skisse over systemet, etter samarbeid med med PayEx så fikk vi den endelige skissen over systemet. 
+Viktige ting for denne uken: Vi skulle ikke touche transaksjonsserveren, databasen influxdb osv. Dette kaller vi for secure zone.
+			     Det som har med sensitiv informasjon gjøre skal PayEx ta seg av. Våres oppgave når det gjelder backend biten er:
+				- Ta imot pakker fra monitor serveren. Videreføre de ved å bruke rabbitMQ og gjennom fis og flas til slutt vise fram informasjonen til brukeren. 
+ 			     Brukere skal grupperes i grupper der de forskjellige gruppene har forskjellige rettigheter. Disse rettighetene bestemmer hva/hvor mye de kan gjøre på nettsiden. 
+Uke 3: 
+
+Jobbing med rapport,nettside osv.
+
+Uke 4: 24. Januar:  
